@@ -12,7 +12,7 @@ public protocol ViewCodeContract {
     func setupViews()
 }
 
-extension ViewCodeContract {
+public extension ViewCodeContract {
     func setupViews() {
         addViews()
         setupConstraints()
